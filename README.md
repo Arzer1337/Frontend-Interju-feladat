@@ -31,5 +31,5 @@
 <img width="1917" height="946" alt="image" src="https://github.com/user-attachments/assets/d3b1ec68-5eed-4e32-bdf1-9503e624b66c" />
 
 
-##LIGHT MODE
+## LIGHT MODE
 <img width="1915" height="942" alt="image" src="https://github.com/user-attachments/assets/ddce3786-4b0e-4632-9300-f78bc556de91" />
