@@ -24,4 +24,12 @@
 ## Design koncepció:
 * Dark Theme: Visual Studio Cyberpunk theme / (személyes kedvenc theme)
 * Light Theme: Alapértelmezett Visual Studio Light theme
-* Továbbfejlesztésképp: Video loop/"mozgó háttér"
+* Továbbfejlesztésképp: Video loop/"mozgó háttér
+
+
+## DARK MODE
+<img width="1917" height="946" alt="image" src="https://github.com/user-attachments/assets/d3b1ec68-5eed-4e32-bdf1-9503e624b66c" />
+
+
+##LIGHT MODE
+<img width="1915" height="942" alt="image" src="https://github.com/user-attachments/assets/ddce3786-4b0e-4632-9300-f78bc556de91" />
