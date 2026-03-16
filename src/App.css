@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+}
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+
+.dark {
+  background-image: url('./assets/Dark.png'); 
+  
+  
+  background-size: cover;        
+  background-position: center;    
+  background-repeat: no-repeat;   
+  background-attachment: fixed;   
+  
+  color: #e5e5e5; 
+}
+
+.dark .container {
+  background: #0b0b0f;
+  border: 1px solid #ff00ff33;
+  box-shadow: 0 0 15px #ff00ff33, 0 0 40px #00ffff22;
+}
+
+.dark .title {
+  color: #00ffff;
+  text-shadow: 0 0 5px #00ffff, 0 0 20px #00ffff;
+}
+
+.light {
+  background-image: url('./assets/White.png'); 
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  color: #222;
+}
+
+.light .container {
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.light .title {
+  color: #333;
+  text-shadow: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  padding: 30px;
+  border-radius: 16px;
+  transition: all 0.3s;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  position: relative;      
+  width: 100%;             
+  padding: 20px 0;
+}
+
+.title {
+  margin: 0; 
+}
+
+.theme-btn {
+  position: absolute;
+  right: 0; 
+}
+
+.complete-btn {
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px; 
+  transition: background-color 0.3s ease; 
+}
+.complete-btn:hover {
+  background-color: #07640b; 
+}
+
+
+.delete-btn {
+  background-color: #f44336; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease; 
+}
+
+
+.delete-btn:hover {
+  background-color: #740800; 
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px; 
+    border-radius: 10px; 
+  }
+}
